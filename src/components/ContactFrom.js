@@ -26,14 +26,14 @@ const ContactForm = () => {
 
     const validationSchema = yup.object({
         name: yup.string().required("Zabudol si na meno."),
-        email: yup.string().email("Skús zadať správny email").required("Ani bez emailu to nepôjde =)."),
+        user_email: yup.string().email("Skús zadať správny email").required("Ani bez emailu to nepôjde =)."),
         message: yup.string().required("A správa je kde ?")
     });
 
     const formik = useFormik({
         initialValues: {
             name: "",
-            email: "",
+            user_email: "",
             message: ""
         },
         onSubmit:(values => {
@@ -62,17 +62,17 @@ const ContactForm = () => {
               {formik.touched.name && formik.errors.name ?
               <p className="error">{formik.errors.name}</p> : null
               }
-              <label htmlFor="email">Email</label>
+              <label htmlFor="user_email">Email</label>
               <input
-                  id="email"
-                  name="email"
+                  id="user_email"
+                  name="user_email"
                   type="text"
-                  value={formik.values.email}
+                  value={formik.values.user_email}
                   onBlur={formik.handleBlur}
                   onChange={formik.handleChange}
               />
-              {formik.touched.email && formik.errors.email ?
-                  <p className="error">{formik.errors.email}</p> : null
+              {formik.touched.user_email && formik.errors.user_email ?
+                  <p className="error">{formik.errors.user_email}</p> : null
               }
               <label htmlFor="message">Správa</label>
               <textarea

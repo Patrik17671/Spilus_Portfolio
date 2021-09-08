@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from "styled-components";
 //Image
-import bg from "../images/o-bg.jpg"
+import bg from "../images/o-bg1.jpg"
 //Animations
 import {motion} from "framer-motion";
 import {titleAnimation, pageAnimation} from "../components/animations";

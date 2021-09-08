@@ -23,8 +23,8 @@ const About = () => {
                 </StyledImg>
                 <StyledDescription ref={element} variants={fadeInRightAnimation} initial="hidden" animate={controls}>
                     <h2>O Mne</h2>
-                    <p>Som programátor samouk. Moja cesta začala pred necelým rokom, odvtedy sa
-                        programovaniu snažím venovať denne. Aj keď moje skúsenosti a prax nie sú zatial
+                    <p>Som programátor samouk. Moja cesta začala pred necelým rokom a odvtedy sa
+                        programovaniu snažím venovať denne. Aj keď moje skúsenosti a prax nie sú zatiaľ
                         na vysokej úrovni, chcem sa učiť nové veci a som motivovaný sa rýchlo zlepšovať.
                     </p>
                     <ul>

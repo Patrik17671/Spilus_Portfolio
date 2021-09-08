@@ -6,6 +6,7 @@ const GlobalStyles = createGlobalStyle`
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  -webkit-tap-highlight-color: transparent;
 }
 html{
   @media (max-width: 960px){

@@ -116,7 +116,7 @@ const StyledDescription = styled(motion.div)`
     margin-bottom: 1.5rem;
     cursor: pointer;
     transition: all 0.4s ease-in-out;
-    @media (max-width: 370px){
+    @media (max-width: 380px){
       padding-right: 1rem;
     }
     &:hover{

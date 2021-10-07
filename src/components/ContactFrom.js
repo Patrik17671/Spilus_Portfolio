@@ -16,10 +16,19 @@ const ContactForm = () => {
         ).then(res=>{
             console.log(res);
             document.querySelector(".succes").classList.add("show");
-
+            (function hide(){
+                setTimeout(function (){
+                    document.querySelector(".succes").classList.remove("show");
+                }, 3000)
+            }());
         }).catch(err=> {
             console.log(err)
             document.querySelector(".error").classList.add("showError");
+            (function hide(){
+                setTimeout(function (){
+                    document.querySelector(".error").classList.remove("showError");
+                }, 3000)
+            }());
         });
 
     }
@@ -42,7 +51,6 @@ const ContactForm = () => {
             formik.resetForm();
         }),
         validationSchema: validationSchema,
-
 
     });
 

@@ -7,6 +7,7 @@ import Projects from "./pages/Projects";
 import ContactMe from "./pages/ContactMe";
 
 import {BrowserRouter as Router} from "react-router-dom";
+import {inject} from '@vercel/analytics';
 
 //Styles
 import GlobalStyles from "./components/GlobalStyles";
@@ -14,26 +15,27 @@ import Footer from "./components/Footer";
 
 
 function App() {
- //States
- const [isOpen, setIsOpen] = useState(false);
- //Functions
- const handleToggle = () => {
-     setIsOpen(!isOpen);
- }
-
-
-  return (
-    <Router>
-      <GlobalStyles />
-      <SlidingNav isOpen={isOpen} toggle={handleToggle} />
-      <Nav toggle={handleToggle}/>
-      <Opening />
-      <About />
-      <Projects />
-      <ContactMe />
-      <Footer />
-    </Router>
-  );
+	//States
+	const [isOpen, setIsOpen] = useState(false);
+	//Functions
+	const handleToggle = () => {
+		setIsOpen(!isOpen);
+	}
+	inject();
+	
+	
+	return (
+		<Router>
+			<GlobalStyles/>
+			<SlidingNav isOpen={isOpen} toggle={handleToggle}/>
+			<Nav toggle={handleToggle}/>
+			<Opening/>
+			<About/>
+			<Projects/>
+			<ContactMe/>
+			<Footer/>
+		</Router>
+	);
 }
 
 

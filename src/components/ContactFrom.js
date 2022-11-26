@@ -9,10 +9,10 @@ const ContactForm = () => {
 
     function sendEmail() {
         emailjs.sendForm(
-            'service_ujanh05',
-            'template_2b6cros',
-            "#contact-form",
-            "user_4pA30zmInAK7ra3DP5mwv"
+            `${process.env.REACT_APP_SERVICE_ID}`,
+            `template_2b6cros`,
+            `#contact-form`,
+            `${process.env.REACT_APP_USER_ID}`
         ).then(res=>{
             console.log(res);
             document.querySelector(".succes").classList.add("show");

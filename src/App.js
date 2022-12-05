@@ -12,6 +12,7 @@ import {inject} from '@vercel/analytics';
 //Styles
 import GlobalStyles from "./components/GlobalStyles";
 import Footer from "./components/Footer";
+import CommercialProjects from "./pages/CommercialProjects";
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
 			<Nav toggle={handleToggle}/>
 			<Opening/>
 			<About/>
+			<CommercialProjects/>
 			<Projects/>
 			<ContactMe/>
 			<Footer/>

@@ -14,14 +14,14 @@ const Opening = () => {
             <StyledBackground>
                 <StyledDescription variants={pageAnimation} initial="hidden" animate="show">
                     <StyledHide>
-                        <motion.h1 variants={titleAnimation}>Ahoj, vitaj u mňa.</motion.h1>
+                        <motion.h1 variants={titleAnimation}>Ahoj, </motion.h1>
                     </StyledHide>
                     <StyledHide>
-                        <motion.h2 variants={titleAnimation}>Volám sa Patrik. </motion.h2>
+                        <motion.h2 variants={titleAnimation}>vitaj na mojej stránke.</motion.h2>
                     </StyledHide>
-                    <StyledHide>
-                        <motion.h2 variants={titleAnimation}>Začínajúci Programátor.</motion.h2>
-                    </StyledHide>
+                    {/*<StyledHide>*/}
+                    {/*    <motion.h2 variants={titleAnimation}>Junior FE dev</motion.h2>*/}
+                    {/*</StyledHide>*/}
                 </StyledDescription>
 
             </StyledBackground>

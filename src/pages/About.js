@@ -23,9 +23,10 @@ const About = () => {
                 </StyledImg>
                 <StyledDescription ref={element} variants={fadeInRightAnimation} initial="hidden" animate={controls}>
                     <h2>O Mne</h2>
-                    <p>Som programátor samouk. Moja cesta začala pred necelým rokom a odvtedy sa
-                        programovaniu snažím venovať denne. Aj keď moje skúsenosti a prax nie sú zatiaľ
-                        na vysokej úrovni, chcem sa učiť nové veci a som motivovaný sa rýchlo zlepšovať.
+                    <p>
+                        Volám sa Patrik a som FE programátor. Začínal som v bluewebe, kde som strávil 15 mesiacov.
+                        Pracoval som na viacerých projektoch. Venoval som sa FE programovaniu pracoval som v malých tímoch.
+                        FE ma baví a rád by som sa posúval ďalej v reacte.
                     </p>
                     <ul>
                         <li className={activeClass === 1 ? "active" : ""} onClick={() => setActiveClass(1)}>Hard Skills</li>
@@ -34,17 +35,21 @@ const About = () => {
                     </ul>
                     <StyledSkills>
                         <div className={activeClass === 1 ? "active" : "hide"}>
-                            <p>HTML, CSS a JavaScript - Mierne pokročilý.</p>
-                            <p>React - Mierne pokročilý.</p>
-                            <p>Ďalej viem používať na základnej úrovni -
-                            Adobe XD, PhotoShop, Git.</p>
+                            <p>Sass, tailwind - pokročilý.</p>
+                            <p>jQuery, JS - pokročilý.</p>
+                            <p>React, Next js - Junior.</p>
+                            <p>V práci som sa stretol s technologiami:
+                                phpStorm, docker, gitlab, figma, adobe XD, notion
+                            </p>
                         </div>
+                        
                         <div className={activeClass === 2 ? "active" : "hide"}>
                             <p>Aktívny prístup.</p>
                             <p>Samostatnosť.</p>
                             <p>Tímová práca.</p>
                             <p>Sebamotivácia a pozitívny prístup =).</p>
                         </div>
+                        
                         <div className={activeClass === 3 ? "active" : "hide"}>
                             <p>Hm zvládnem vymeniť olej v aute.</p>
                             <p>Aj narúbať drevo.</p>

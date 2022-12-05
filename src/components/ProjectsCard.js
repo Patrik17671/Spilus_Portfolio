@@ -4,9 +4,7 @@ import styled from "styled-components";
 import {popInAnimation, useScroll} from "./animations";
 import {motion} from "framer-motion";
 
-
-
-const ProjectsCard = ({nameOfProject, imgOfProject, description, link, githubLink }) => {
+const ProjectsCard = ({nameOfProject, imgOfProject, description, link, githubLink, technology }) => {
 
     const [element, controls] = useScroll();
 
@@ -15,7 +13,8 @@ const ProjectsCard = ({nameOfProject, imgOfProject, description, link, githubLin
             <h4>{nameOfProject}</h4>
             <img src={imgOfProject} alt="" />
             <p>{description}</p>
-            <div><a href={link} rel="noreferrer" target="_blank">Ukážka</a> <a href={githubLink} rel="noreferrer" target="_blank">GitHub</a></div>
+            {technology != "" ? (<p><strong>Použité technologie: </strong>{technology}</p>) : ""}
+            <div><a href={link} rel="noreferrer" target="_blank">Ukážka</a> {githubLink != "" ? (<a href={githubLink} rel="noreferrer" target="_blank">GitHub</a>) : ""} </div>
         </StyledCard>
     );
 };

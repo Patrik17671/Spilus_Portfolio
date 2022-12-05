@@ -63,7 +63,7 @@ const StyledProjects = styled.div`
     color: #b9b9b9;
 	margin-bottom: 2rem;
   }
-  a{
+  p a{
 	color: #b9b9b9;
 	font-weight: bold;
 	text-decoration: underline;

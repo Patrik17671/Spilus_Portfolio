@@ -5,7 +5,8 @@ import ProjectsCard from "../components/ProjectsCard";
 // import musicApp from "../images/musicapp.jpg";
 // import gamesApp from "../images/reactApp.jpg";
 import nextEcommerce from "../images/next-ecommerce.jpg";
-//Animatins
+import feMentor from "../images/fe-mentor.jpg";
+//Animations
 import {motion} from "framer-motion";
 import {useScroll, fadeAnimation} from "../components/animations";
 
@@ -20,10 +21,20 @@ const Projects = () => {
                 <ProjectsCard
                     nameOfProject="ecommerce projekt"
                     imgOfProject={nextEcommerce}
-                    description="fdfdsff"
-                    technology="next.js, strapi, redux, GraphQL"
+                    description="Vyskúšal som si prácu so Strapi CMS a vytvoril som jednoduchý eshop,
+                    na ťahanie dát som použil GraphQL a na správu globálnych stavov som si vyskúšal prácu s reduxom."
+                    technology="Next.js, Strapi, Redux, GraphQL, Tailwind"
                     link="https://spilus-ecommerce.vercel.app/"
-                    githubLink="https://github.com/Patrik17671/React-music-app"
+                    githubLink="https://github.com/Patrik17671/Strapi-next-ecommerce"
+                />
+                <ProjectsCard
+                    nameOfProject="FE mentor štáty"
+                    imgOfProject={feMentor}
+                    description="Tu som spravil svoju prvú filtráciu a naučil sa dynamicky
+                     generovať stráky pre jednotlivé štáty."
+                    technology="Next.js, Tailwind"
+                    link="https://fe-mentor-countries.vercel.app/"
+                    githubLink="https://github.com/Patrik17671/FE-mentor-flags"
                 />
                 {/*<ProjectsCard*/}
                 {/*    nameOfProject="Game Searcher"*/}

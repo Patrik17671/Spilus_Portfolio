@@ -14,7 +14,7 @@ const Footer = () => {
                 <li><a href="https://www.linkedin.com/in/patrik-spilka-7baaa320a/"  rel="noreferrer" target="_blank"><IoLogoLinkedin /></a></li>
                 <li><a href="https://www.instagram.com/patrik_spilus/" rel="noreferrer" target="_blank"><FiInstagram /></a></li>
             </ul>
-        <p>Copyright © {currentYear} <em>Spilus</em> All Rights Reserved.</p>
+        <p>Copyright © {currentYear} <em>Spilus</em> All Jokes Reserved.</p>
         </StyledFooter>
     );
 };

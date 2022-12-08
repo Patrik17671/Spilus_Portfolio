@@ -35,11 +35,14 @@ const About = () => {
                     </ul>
                     <StyledSkills>
                         <div className={activeClass === 1 ? "active" : "hide"}>
-                            <p>Sass, tailwind - pokročilý.</p>
+                            <p>Sass, Tailwind - pokročilý.</p>
                             <p>jQuery, JS - pokročilý.</p>
-                            <p>React, Next js - Junior.</p>
+                            <p>React, Next.js - Junior.</p>
                             <p>V práci som sa stretol s technologiami:
                                 phpStorm, docker, gitlab, figma, adobe XD, notion
+                            </p>
+                            <p>Na vlastných projektoch som si vyskúšal:
+                                GraphQL, Redux, Strapi, Stripe, Framer-motion, Urql
                             </p>
                         </div>
                         
@@ -54,6 +57,7 @@ const About = () => {
                             <p>Hm zvládnem vymeniť olej v aute.</p>
                             <p>Aj narúbať drevo.</p>
                             <p>Dokonca vyhrať WarZony.</p>
+                            <p>Sem tam zo mňa vypadne nejaký ftípek.</p>
                             <img src={cool} alt="" height="50px"/>
                         </div>
                     </StyledSkills>

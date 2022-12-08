@@ -26,7 +26,7 @@ const Projects = () => {
 					imgOfProject={zajo}
 					description="
                     Bol to prvý projekt, ktorý som ako jeden z dvoch FE vývojárov vyvíjal od začiatku až do nasadenia.
-                    Vyskúšal som si tu týždenné šprinty a nadstavovanie defaultných hodnôt až po denné statusy a
+                    Vyskúšal som si tu týždenné šprinty a nadstavovanie defaultných hodnôt až po denné standupy a
                     nestíhačky pred spustením =).
                     "
 					technology="nette-latte, Tailwind, SASS, jQuery"

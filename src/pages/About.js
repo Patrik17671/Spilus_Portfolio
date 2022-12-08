@@ -25,7 +25,7 @@ const About = () => {
                     <h2>O Mne</h2>
                     <p>
                         Volám sa Patrik a som FE programátor. Začínal som v bluewebe, kde som strávil 15 mesiacov.
-                        Pracoval som na viacerých projektoch. Venoval som sa FE programovaniu pracoval som v malých tímoch.
+                        Ako FE programátor som pracoval na viacerých projektoch.
                         FE ma baví a rád by som sa posúval ďalej v reacte.
                     </p>
                     <ul>

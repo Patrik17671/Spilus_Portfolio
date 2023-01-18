@@ -6,6 +6,7 @@ import ProjectsCard from "../components/ProjectsCard";
 // import gamesApp from "../images/reactApp.jpg";
 import nextEcommerce from "../images/next-ecommerce.jpg";
 import feMentor from "../images/fe-mentor.jpg";
+import invoiceApp from "../images/invoice-app.jpg";
 //Animations
 import {motion} from "framer-motion";
 import {useScroll, fadeAnimation} from "../components/animations";
@@ -35,6 +36,14 @@ const Projects = () => {
                     technology="Next.js, Tailwind"
                     link="https://fe-mentor-countries.vercel.app/"
                     githubLink="https://github.com/Patrik17671/FE-mentor-flags"
+                />
+                <ProjectsCard
+                    nameOfProject="FE mentor faktúry"
+                    imgOfProject={invoiceApp}
+                    description="Aplikácia na vytváranie a úpravú faktúr - na stránke sa ešte pracuje!."
+                    technology="Next.js ,Redux ,Tailwind"
+                    link="https://fe-mentor-invoces.vercel.app/"
+                    githubLink="https://github.com/Patrik17671/FE-mentor-invoce"
                 />
                 {/*<ProjectsCard*/}
                 {/*    nameOfProject="Game Searcher"*/}

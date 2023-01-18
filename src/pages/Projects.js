@@ -40,8 +40,8 @@ const Projects = () => {
                 <ProjectsCard
                     nameOfProject="FE mentor faktúry"
                     imgOfProject={invoiceApp}
-                    description="Aplikácia na vytváranie a úpravú faktúr - na stránke sa ešte pracuje!."
-                    technology="Next.js ,Redux ,Tailwind"
+                    description="Aplikácia na vytváranie a úpravú faktúr - na stránke sa ešte pracuje!!"
+                    technology="Next.js, Redux, Tailwind"
                     link="https://fe-mentor-invoces.vercel.app/"
                     githubLink="https://github.com/Patrik17671/FE-mentor-invoce"
                 />

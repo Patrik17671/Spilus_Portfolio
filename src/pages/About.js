@@ -35,15 +35,8 @@ const About = () => {
                     </ul>
                     <StyledSkills>
                         <div className={activeClass === 1 ? "active" : "hide"}>
-                            <p>Sass, Tailwind - pokročilý.</p>
-                            <p>jQuery, JS - pokročilý.</p>
-                            <p>React, Next.js - Junior.</p>
-                            <p>V práci som sa stretol s technologiami:
-                                phpStorm, docker, gitlab, figma, adobe XD, notion
-                            </p>
-                            <p>Na vlastných projektoch som si vyskúšal:
-                                GraphQL, Redux, Strapi, Stripe, Framer-motion, Urql
-                            </p>
+                            <p><strong>Technnológie s ktorými som pracoval:</strong> Sass, Tailwind
+                            jQuery, JS, React, Next.js, GraphQL, Redux, Strapi CMS, Stripe, Framer-motion, Urql, docker, gitlab, figma, adobe XD, notion</p>
                         </div>
                         
                         <div className={activeClass === 2 ? "active" : "hide"}>

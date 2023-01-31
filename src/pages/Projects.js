@@ -23,10 +23,11 @@ const Projects = () => {
                     nameOfProject="ecommerce projekt"
                     imgOfProject={nextEcommerce}
                     description="Vyskúšal som si prácu so Strapi CMS a vytvoril som jednoduchý eshop,
-                    na ťahanie dát som použil GraphQL a na správu globálnych stavov som si vyskúšal prácu s reduxom."
-                    technology="Next.js, Strapi, Redux, GraphQL, Tailwind"
-                    link="https://spilus-ecommerce.vercel.app/"
-                    githubLink="https://github.com/Patrik17671/Strapi-next-ecommerce"
+                    na ťahanie dát som použil GraphQL a na správu globálnych stavov som si vyskúšal prácu s reduxom.
+                    Neskôr som appku prepísal do TypeScriptu."
+                    technology="TypeScript ,Next.js, Strapi, Redux, GraphQL, Tailwind"
+                    link="https://strapi-next-ts.vercel.app/"
+                    githubLink="https://github.com/Patrik17671/strapi-next-ts"
                 />
                 <ProjectsCard
                     nameOfProject="FE mentor štáty"

@@ -35,8 +35,11 @@ const About = () => {
                     </ul>
                     <StyledSkills>
                         <div className={activeClass === 1 ? "active" : "hide"}>
-                            <p><strong>Technnológie s ktorými som pracoval:</strong> Sass, Tailwind
-                            jQuery, JS, React, Next.js, GraphQL, Redux, Strapi CMS, Stripe, Framer-motion, Urql, docker, gitlab, figma, adobe XD, notion</p>
+                            <p><strong>Technnológie s ktorými som pracoval:</strong> </p>
+                            <p><strong>Programovanie: </strong> jQuery, JavaScript, TypeScript, React, Redux, GraphQL, Stripe, Strapi CMS, Urql, Framer-motion</p>
+                            <p><strong>Štýlovanie: </strong>CSS, Sass, Tailwind, Styled-components</p>
+                            <p><strong>Iné: </strong>docker, gitlab, figma, adobe XD, notion</p>
+                            
                         </div>
                         
                         <div className={activeClass === 2 ? "active" : "hide"}>
